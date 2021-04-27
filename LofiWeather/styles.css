@@ -29,24 +29,25 @@ body {
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
 }
 
-.weather-icon{
+/*.weather-icon{
     min-height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.weather-icon img{
+/*.weather-icon img{
     width: 9rem;
-}
+}*/
 
 .degree-section{
     font-size: 50px;
-    min-height: 25vh;
+    min-height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 2;
+
 }
 
 .circle{
@@ -63,11 +64,22 @@ body {
    display: flex;
    align-items: center;
    justify-content: center; 
-   
 }
 
-/*.location-timezone{
+.location h1{
+    font-size: 3rem;
+    padding: 2.5rem 0rem;
+    text-align: center;
+}
+
+.temp-description{
+   font-size: 1.3rem;
     
+}
+
+.icon-description{
+    text-align: center;
+    padding: 2rem 0rem;
 }
 
 

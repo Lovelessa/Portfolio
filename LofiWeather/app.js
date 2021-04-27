@@ -48,7 +48,7 @@ const container = document.querySelector(".container");
 //Items
 const title = document.querySelector('.location-timezone');
 const temp = document.querySelector('.temp-degree');
-const cloud = document.querySelector('.weather-icon');
+const cloud = document.querySelector('.icon-description');
 const tempType = document.querySelector('.degree-type');
 
 // mouse animation event 
@@ -61,8 +61,10 @@ container.addEventListener('mousemove', (e) => {
 container.addEventListener('mouseenter', e => {
     card.style.transition = "none";
     //popout
-    temp.style.transform = 'translateZ(100px)'
+    temp.style.transform = 'translateZ(125px)'
     tempType.style.transform = 'translateZ(75px)'
+    title.style.transform = 'translateZ(75px)'
+    cloud.style.transform = 'translateZ(50px)'
 });
 //animate out
 container.addEventListener('mouseleave', e => {
@@ -72,12 +74,17 @@ container.addEventListener('mouseleave', e => {
 
     //popback
         //temp
-    temp.style.transform = 'translateZ(0px)'
+    temp.style.transform = 'translateZ(0px)';
     temp.style.transition = "all 0.5s ease";
         //tempType
-    tempType.style.transform = 'translateZ(0px)'
+    tempType.style.transform = 'translateZ(0px)';
     tempType.style.transition = "all 0.5s ease";
-    
+    //cloud
+    cloud.style.transform = 'translateZ(0px)';
+    cloud.style.transition = "all 0.5s ease";
+    //title
+    title.style.transform = 'translateZ(0px)';
+    title.style.transition = "all 0.5s ease";
 });
 
 
