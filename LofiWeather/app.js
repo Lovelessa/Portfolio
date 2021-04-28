@@ -1,5 +1,6 @@
 // after page loads function runs to grab location
 window.addEventListener('load', ()=> {
+
     //selected elements
     let lon;
     let lat;
@@ -25,14 +26,20 @@ window.addEventListener('load', ()=> {
                 })
                 .then(data => {
                 console.log(data);
+                
                 const {description} = data.weather[0];
                 const {icon} = data.weather[0];
                 const {temp} = data.main;
                 const {name} = data;
+
+                //setting temp to two decimal places
+                const tempUpdate = (temp.toFixed())
+
                 //set Dom Elements from API
                 tempDescription.textContent = description;
-                tempDegree.textContent = temp;
+                tempDegree.textContent = tempUpdate;
                 localTimeZone.textContent = name;
+
                 //link icon
                 locationIcon.innerHTML = `<img src="icons/${icon}.png"/>`;
                     
@@ -62,7 +69,7 @@ container.addEventListener('mouseenter', e => {
     card.style.transition = "none";
     //popout
     temp.style.transform = 'translateZ(125px)'
-    tempType.style.transform = 'translateZ(75px)'
+    tempType.style.transform = 'translateZ(125px)'
     title.style.transform = 'translateZ(75px)'
     cloud.style.transform = 'translateZ(50px)'
 });
