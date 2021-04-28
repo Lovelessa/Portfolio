@@ -1,3 +1,4 @@
+
 // after page loads function runs to grab location
 window.addEventListener('load', ()=> {
 
@@ -18,7 +19,7 @@ window.addEventListener('load', ()=> {
             lon = position.coords.longitude;
             lat = position.coords.latitude;
 
-            const api = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=bd62628f129a817f1d50db7210b477b0`;
+            const api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=bd62628f129a817f1d50db7210b477b0`
 
             fetch(api)
                 .then(response => {
