@@ -13,7 +13,6 @@ window.addEventListener('load', ()=> {
     //grabbing the geolocation from the browser 
     if (navigator.geolocation){
         navigator.geolocation.getCurrentPosition(position => {
-            console.log(position)
             
             //passing the coords from the browser into variables
             lon = position.coords.longitude;
@@ -26,7 +25,6 @@ window.addEventListener('load', ()=> {
                 return response.json(); //parse the data
                 })
                 .then(data => {
-                console.log(data);
                 
                 const {description} = data.weather[0];
                 const {icon} = data.weather[0];
@@ -87,10 +85,10 @@ container.addEventListener('mouseleave', e => {
         //tempType
     tempType.style.transform = 'translateZ(0px)';
     tempType.style.transition = "all 0.5s ease";
-    //cloud
+        //cloud
     cloud.style.transform = 'translateZ(0px)';
     cloud.style.transition = "all 0.5s ease";
-    //title
+        //title
     title.style.transform = 'translateZ(0px)';
     title.style.transition = "all 0.5s ease";
 });

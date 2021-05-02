@@ -14,12 +14,12 @@ body {
 }
 
 .container{
-    /*background-color: red;*/
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .card{
     transform-style: preserve-3d;
     min-height: 80vh;
@@ -29,17 +29,6 @@ body {
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
 }
 
-/*.weather-icon{
-    min-height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/*.weather-icon img{
-    width: 9rem;
-}*/
-
 .degree-section{
     font-size: 50px;
     min-height: 30vh;
@@ -47,7 +36,6 @@ body {
     align-items: center;
     justify-content: center;
     z-index: 2;
-
 }
 
 .circle{
@@ -82,26 +70,3 @@ body {
     padding: 2rem 0rem;
 }
 
-
-/*.location, .temp
- {
-    height: 30vh;
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.temp {
-    flex-direction: column;
-}
-.degree-section {
-    display: flex;
-    align-items: center;
-}
-.degree-section span {
-    margin: 10px;
-    font-size: 30px;
-}
-.degree-section h2 {
-    font-size: 40px;
-}*/
