@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/PryzmWare/static/css/main.e6d1d10c.chunk.css",
+    "main.js": "/Portfolio/PryzmWare/static/js/main.483f7d92.chunk.js",
+    "main.js.map": "/Portfolio/PryzmWare/static/js/main.483f7d92.chunk.js.map",
+    "runtime-main.js": "/Portfolio/PryzmWare/static/js/runtime-main.3c417296.js",
+    "runtime-main.js.map": "/Portfolio/PryzmWare/static/js/runtime-main.3c417296.js.map",
+    "static/js/2.05295347.chunk.js": "/Portfolio/PryzmWare/static/js/2.05295347.chunk.js",
+    "static/js/2.05295347.chunk.js.map": "/Portfolio/PryzmWare/static/js/2.05295347.chunk.js.map",
+    "index.html": "/Portfolio/PryzmWare/index.html",
+    "static/css/main.e6d1d10c.chunk.css.map": "/Portfolio/PryzmWare/static/css/main.e6d1d10c.chunk.css.map",
+    "static/js/2.05295347.chunk.js.LICENSE.txt": "/Portfolio/PryzmWare/static/js/2.05295347.chunk.js.LICENSE.txt",
+    "static/media/file.svg": "/Portfolio/PryzmWare/static/media/file.39a2051e.svg",
+    "static/media/invest.svg": "/Portfolio/PryzmWare/static/media/invest.3fb011b6.svg",
+    "static/media/safe.29d2edbb.svg": "/Portfolio/PryzmWare/static/media/safe.29d2edbb.svg",
+    "static/media/svg-1.svg": "/Portfolio/PryzmWare/static/media/svg-1.7adad6ca.svg",
+    "static/media/video.80c78ef2.mp4": "/Portfolio/PryzmWare/static/media/video.80c78ef2.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c417296.js",
+    "static/js/2.05295347.chunk.js",
+    "static/css/main.e6d1d10c.chunk.css",
+    "static/js/main.483f7d92.chunk.js"
+  ]
+}
