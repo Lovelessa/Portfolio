@@ -33,10 +33,10 @@ export const homeObjTwo = {
 }
 
 export const homeObjThree = {
-    id: 'services',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    id: 'signup',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'Full Service Software',
     headline: 'Information always at your fingertips',
     description: 'Get access to an exclusive software that allows you to manage your buisness with ease.',
@@ -44,7 +44,7 @@ export const homeObjThree = {
     imgStart: false,
     img: require('../../images/file.svg').default,
     alt: 'car',
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true
 }
