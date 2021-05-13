@@ -14,38 +14,35 @@ const Footer = () => {
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle>About Us</FooterLinkTitle>
-                                <FooterLink to="/signin">How it works</FooterLink>
-                                <FooterLink to="/signin">Testimonials</FooterLink>
-                                <FooterLink to="/signin">Carrers</FooterLink>
-                                <FooterLink to="/signin">Investors</FooterLink>
-                                <FooterLink to="/signin">Terms of Service</FooterLink>
+                            <FooterLinkTitle>Our Company</FooterLinkTitle>
+                                <FooterLink to="/signin">Our History</FooterLink>
+                                <FooterLink to="/signin">Our Vision</FooterLink>
+                                <FooterLink to="/signin">Our Mission</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
-                            <FooterLinkTitle>About Us</FooterLinkTitle>
-                                <FooterLink to="/signin">How it works</FooterLink>
-                                <FooterLink to="/signin">Testimonials</FooterLink>
-                                <FooterLink to="/signin">Carrers</FooterLink>
-                                <FooterLink to="/signin">Investors</FooterLink>
-                                <FooterLink to="/signin">Terms of Service</FooterLink>
+                            <FooterLinkTitle>News</FooterLinkTitle>
+                                <FooterLink to="/signin">Social</FooterLink>
+                                <FooterLink to="/signin">Blogs</FooterLink>
+                                <FooterLink to="/signin">Media Library</FooterLink>
+                                <FooterLink to="/signin">Media Contacts</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle>About Us</FooterLinkTitle>
-                                <FooterLink to="/signin">How it works</FooterLink>
-                                <FooterLink to="/signin">Testimonials</FooterLink>
-                                <FooterLink to="/signin">Carrers</FooterLink>
-                                <FooterLink to="/signin">Investors</FooterLink>
-                                <FooterLink to="/signin">Terms of Service</FooterLink>
+                            <FooterLinkTitle>Careers</FooterLinkTitle>
+                                <FooterLink to="/signin">Community</FooterLink>
+                                <FooterLink to="/signin">Message</FooterLink>
+                                <FooterLink to="/signin">Values</FooterLink>
+                                <FooterLink to="/signin">University Recruiting</FooterLink>
+                                <FooterLink to="/signin">Sales and Marketinge</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
-                            <FooterLinkTitle>About Us</FooterLinkTitle>
-                                <FooterLink to="/signin">How it works</FooterLink>
-                                <FooterLink to="/signin">Testimonials</FooterLink>
-                                <FooterLink to="/signin">Carrers</FooterLink>
-                                <FooterLink to="/signin">Investors</FooterLink>
-                                <FooterLink to="/signin">Terms of Service</FooterLink>
+                            <FooterLinkTitle>Investors</FooterLinkTitle>
+                                <FooterLink to="/signin">Earnings Release</FooterLink>
+                                <FooterLink to="/signin">Earnings Webcast</FooterLink>
+                                <FooterLink to="/signin">Financial Tables</FooterLink>
+                                <FooterLink to="/signin">Slide Presentation</FooterLink>
+                                <FooterLink to="/signin">Latest Events</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
